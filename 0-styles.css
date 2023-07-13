@@ -272,3 +272,8 @@ h6 {
   	float: none;
   }
 }
+
+/* HEADER SECTION */
+.header-container {
+    display: flex;
+}
