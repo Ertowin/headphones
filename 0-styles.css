@@ -1,0 +1,274 @@
+/* Variables
+   ============================= */
+
+   /* :root {
+    --color-primary: #D73953;
+    --color-black:  #090909;
+    --color-white: #ffffff;
+    --color-grey: #a0a0a0;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+  
+    --text-color: var(--color-black);
+  
+    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+  
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+  
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8; */
+  
+    /** SECTION **/
+    /* --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-header-align: center;
+    --section-title-font-size: var(--font-size-xx-large);
+    --section-title-font-weight: var(--font-weight-bold);
+    --section-title-line-height: var(--line-height-small);
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black);
+    --section-tagline-transform: uppercase;
+    --section-tagline-color: var(--color-primary);
+    --section-tagline-font-family: var(--font-family-headings);
+    --section-tagline-font-weight: var(--font-weight-bold);
+    --section-tagline-margin: 0;
+    --section-body-padding: 2rem 0 4rem;
+    --section-footer-padding: 3rem 0 0;
+    --section-footer-align: center;
+   */
+    /** HEADER **/
+    /* --header-padding: 4rem 0 0;
+    --header-logo-position: relative;
+    --header-logo-link-display: inline-block;
+    --header-logo-link-position: absolute;
+    --header-logo-link-top: -1rem;
+    --header-logo-link-left: 0;
+   */
+    /** FOOTER **/
+    /* --footer-padding: 5rem 0 1rem; */
+  
+    /** NAVBAR **/
+    /* --nav-item-font-family: var(--font-family-headings);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-letter-spacing: .04rem;
+    --nav-item-display: inline-block;
+    --nav-item-margin: 0 2rem 0 0;
+    --nav-item-link-hover: var(--color-white); */
+  
+    /** BUTTON **/
+    /* --button-display: inline-block;
+    --button-padding: 1.5rem 3rem;
+    --button-border: var(--color-primary) solid 0.2rem;
+    --button-color: var(--color-black);
+    --button-text-decoration: none;
+    --button-font-size: var(--font-size-large);
+    --button-hover-color: var(--color-white);
+    --button-hover-text-decoration: none;
+    --button-hover-background: var(--color-primary);
+   */
+    /** MOTION **/
+    /* --transition-duration: .3s;
+    --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01); */
+  /* } */
+
+/* CSS reset rules */
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Fonts and colors */
+
+body {
+	font-family: 'Josefin Sans', serif;
+	color: rgba(0, 0, 0, 0.8);
+}
+h1, h2, h3, h4, h5, h6, header {
+	font-family: 'Yeseva One', sans-serif;
+}
+header {
+	border-bottom: 1px solid rgb(221,221,221);
+	transition: border-bottom-color 1s ease;
+}
+header a {
+	color: rgba(0, 0, 0, 0.8);
+}
+aside {
+	background: #FAFAFA;
+}
+aside p {
+	border: 1px solid #bbb;
+	background: #ddd;
+	color: black;
+}
+footer a {
+	color: rgba(0, 0, 0, 0.8);
+}
+a {
+	color: #F80002;
+}
+
+
+/* Positioning and margins */
+
+@media (min-width: 1100px) {
+	body {
+		width: 1100px;
+		margin: 0 auto;
+	}
+}
+
+article {
+	padding: 50px 15px;
+}
+article > *:first-child {
+	margin-top: 0;
+}
+aside {
+	padding: 50px 15px;
+}
+header .right {
+	float: right;
+	margin: 0 10px 15px;
+}
+
+
+/* Header */
+header {
+	padding: 20px 0;
+	height: 80px;
+}
+header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header li {
+	display: inline;
+	vertical-align:middle;
+}
+header li:first-child {
+	margin: 0;
+}
+header li a {
+	margin: 0 10px;
+}
+header li.logo {
+	font-size: 36px;
+}
+header a {
+	text-decoration: none;
+}
+
+
+/* Aside */
+
+aside p {
+	border-radius: 10px;
+	padding: 20px 20px;
+}
+
+
+/* Footer */
+
+footer {
+	padding: 5px 15px;
+	height: 80px;
+}
+
+
+/* Text styles and margins */
+
+p {
+	margin-bottom: 15px;
+}
+h1 {
+	font-size: 36px;
+	margin: 40px 0 20px;
+}
+h2 {
+	font-size: 32px;
+	margin: 30px 0 15px;
+}
+h3 {
+	font-size: 28px;
+	margin: 25px 0 10px;
+}
+h4 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px 0 10px;
+}
+h5 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 15px 0 10px;
+}
+h6 {
+	font-weight: bold;
+	margin: 5px 0;
+}
+
+@media (max-width: 800px) {
+  body.works_on_smartphone {
+  	display: block;
+  }
+  body.works_on_smartphone main {
+  	display: block;
+  }
+  header .right {
+  	float: none;
+  }
+}
