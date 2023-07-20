@@ -161,7 +161,7 @@ height: 2em;
 	background: #FF6565;
 }
 
-.banner input:active {
+.banner input:hover {
 
 	opacity: 0.9
 }
@@ -182,6 +182,99 @@ nav .fa {
 
 	display: none;
 
+}
+
+
+/* What we do Section */
+
+
+.we-do-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-div-1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.what-div-1 h2 {
+
+
+    padding-top: 3%;
+    color: #071629;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.what-div-1 p {
+
+    padding: 3% 30%;
+
+    color: #071629;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5em; 
+}
+
+
+.what-div-2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.what-div-2 div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4%;
+}
+
+.what-div-2 h3 {
+
+color: #071629;
+text-align: center;
+font-family: 'Source Sans Pro';
+font-size: 1em;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5em;
+padding-top: 1.5em;
+
+}
+
+.what-div-2 p {
+
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 1em;
+
+color: #071629;
+text-align: center;
+font-family: 'Source Sans Pro';
+font-size: 1em;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5em;
 }
 
 
@@ -220,8 +313,8 @@ nav a {
 
 .banner {
 
-	margin: 3em 1.5em;
-	padding: 15% 5% 7% 5%;
+	margin: 4em 1.5em;
+	padding: 1.5em 3em 1.5em 3em;
 }
 	
 .banner h1 {
@@ -238,12 +331,12 @@ nav a {
 .banner input {
 
 	width: 9em;
-	margin: 4% 0%;
+	margin: 2em 0em;
 }
 
 .banner p {
 
-	padding: 5% 0%;
+	padding: 1.5em 0em;
 	line-height: 1.5em;
 	text-align: center;
 }
@@ -256,6 +349,13 @@ nav .fa {
 	font-size: 2em;
 	margin-right: auto;
 
+}
+
+
+.what-div-2 {
+
+display: flex;
+flex-direction: column;
 }
 
 }
