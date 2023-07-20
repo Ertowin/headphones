@@ -287,12 +287,6 @@ line-height: 1.5em;
 
 /* ANIMATION FOR THE WE-DO SECTION */
 
-@keyframes example {
- 
-        from {background-color: red;}
-        to {background-color: yellow;}
-      
-}
 
 .what-div-2 img {
 
